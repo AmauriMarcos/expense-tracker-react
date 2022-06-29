@@ -1,0 +1,14 @@
+.Balance{
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.Balance p{
+    font-size: 1.2rem;
+}
+
+.Balance h2{
+    font-size: 2rem;
+    margin: .5rem 0;
+    font-weight: 100;
+}

@@ -1,0 +1,25 @@
+.IncomeExpense{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+    gap: .5rem;
+}
+
+.income, .expense{
+    width: 240px;
+    height: auto;
+    padding: 1rem;
+}
+
+.income p{
+    color: rgb(79, 194, 79);
+    margin-top: .3rem;
+    font-size: 1.2rem;
+}
+
+.expense p{
+    color: rgb(190, 90, 90);
+    margin-top: .3rem;
+    font-size: 1.2rem;
+}
