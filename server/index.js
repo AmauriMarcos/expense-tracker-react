@@ -14,7 +14,7 @@ app.use(express.urlencoded());
 app.use(express.json());
 
 app.get('/transactions', (req, res) =>{
-    const query = 'SELECT * FROM transactions';
+    const query = 'SELECT * FROM transactions ORDER BY id DESC;';
 
     db.query(query, (err, result) =>{
         if(err){

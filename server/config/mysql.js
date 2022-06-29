@@ -2,7 +2,7 @@
 // get the client
 const mysql = require('mysql2');
 
-require("dotenv").config();
+require('dotenv').config({path:__dirname+'/./../../.env'});
 
 
 const db = mysql.createConnection({
